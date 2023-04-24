@@ -1,0 +1,39 @@
+.task__modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+
+    &.active {
+        transform: scale(1);
+    }
+
+    &-content {
+        padding: 20px;
+        border-radius: 12px;
+        background-color: #fff;
+        max-height: 700px;
+        width: 900px;
+        overflow-y: scroll;
+    }
+
+    &-content--inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-content--text {
+        max-width: 500px;
+    }
+
+    &-btn{
+        display: flex;
+        justify-content: end;
+    }
+}

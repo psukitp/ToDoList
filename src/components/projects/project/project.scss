@@ -1,0 +1,17 @@
+.project{
+    min-height: 700px;
+    margin-top: 50px;
+}
+
+.tasks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}
+
+.search__area{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

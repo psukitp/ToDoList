@@ -1,0 +1,14 @@
+.task__small-card{
+    &-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-text{
+        max-width: 133px;
+    }
+
+    &-manager{
+        display: flex;
+        justify-content: end;
+    }
+}

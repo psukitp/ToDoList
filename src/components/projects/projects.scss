@@ -1,0 +1,17 @@
+.projects {
+    width: 1500px;
+    min-height: 700px;
+    margin-top: 50px;
+
+    &-inner {
+        display: flex;
+    }
+
+    &-my {
+        margin-right: 30px;
+    }
+
+    &-btns{
+        margin-bottom: 20px;
+    }
+}
